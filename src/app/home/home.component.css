@@ -1,0 +1,9 @@
+.btn1{
+    background-color: #228DFF;
+    height: 12vh;
+    color: white;
+}
+.btn1:hover{
+    color: #F2E6E6;
+
+}

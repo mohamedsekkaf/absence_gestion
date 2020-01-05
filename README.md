@@ -1,27 +1,34 @@
-# AppAngular
+# Application Gestion d'absence
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+## Application Simple de gestion d'absence 
 
-## Development server
+### Description 
+est une Application web qui gère l'absence des étudiants en en sélectionnant la personne d'une table qui contient tous les étudiant(on peut aussi ajouter un étudiant). vous pouvez simplement faire l'appel et cocher les absents ainsi que vous pouvez consulter tous les absents avec l'heure d'absence
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Requirements
+* Spring boot
+* Angular V8
+* html et Css
+* Bootstrap
+* XAMPP
 
-## Code scaffolding
+### How To run
+vous devez démarrer apache et ouvrir le dossier du projet spring boot dans un editeur par exemple intelliJ IDEA et l'executer 
+#### Development server (Angular)
+Run `ng serve` pour le  dev server. 
+enfin vous devez visiter l'adresse https://172.0.0.1/home 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Application overview
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Ajout d'etudiant Page (initial Opening Page)
+![AjoutDunEtud](https://user-images.githubusercontent.com/59474060/71782203-dff3ea80-2fd7-11ea-8d41-3ae206d0a428.jpeg)
 
-## Running unit tests
+### liste etudiant
+![ListeEtd](https://user-images.githubusercontent.com/59474060/71782261-817b3c00-2fd8-11ea-87f3-02c44306e16a.jpeg)
+si on coche un étudiant il va directement ajouter dans la liste des absences
+![ListeCoche](https://user-images.githubusercontent.com/59474060/71782340-285fd800-2fd9-11ea-85a9-995dbca9a069.jpeg)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### liste absence
+![ListeEtd](https://user-images.githubusercontent.com/59474060/71782261-817b3c00-2fd8-11ea-87f3-02c44306e16a.jpeg)
