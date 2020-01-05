@@ -1,0 +1,10 @@
+.navbar{
+    background-color: rgb(17, 201, 247);
+}
+a{
+    margin-right: 40px;
+}
+a:hover{
+    font-size: 20px;
+    color: darkblue;
+}

@@ -1,0 +1,34 @@
+<br><br><br>
+<div class="container">
+    <div class="row">
+<div class="card">
+    
+    <div class="card-body">
+        
+ 
+        <table style="border-collapse: collapse;border: 2px solid black;">
+            <thead>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">Id </td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">Nom </td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">Prenom</td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">CNE</td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">CIN</td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">Nom de Classe</td>
+                <td style="width: 200px; text-align: center; background-color: cornflowerblue;">Date</td>
+            </thead>
+        </table>
+        <table *ngFor="let abs of absence " style="border-collapse: collapse;border: 2px solid black;" >
+            <tr>
+                <td style="width: 200px; text-align: center; ">{{abs.id}} </td>
+                <td style="width: 200px; text-align: center; ">{{abs.fname}} </td>
+                <td style="width: 200px; text-align: center; ">{{abs.lname}}</td>
+                <td style="width: 200px; text-align: center; ">{{abs.cne}}</td>
+                <td style="width: 200px; text-align: center; ">{{abs.cin}}</td>
+                <td style="width: 200px; text-align: center; ">{{abs.class_name}}</td>
+                <td style="width: 200px; text-align: center; ">{{abs.date}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    </div>
+</div>

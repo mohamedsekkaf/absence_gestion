@@ -1,0 +1,32 @@
+<br><br><br>
+<div class="container">
+    <div class="row">
+<div class="card" >
+   
+    <div class="card-body">
+        
+   
+        <table style="border-collapse: collapse;border: 2px solid black;">
+            <thead>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">Id </td>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">Nom </td>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">Prenom</td>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">CNE</td>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">CIN</td>
+                <td style="width: 200px;background-color: cornflowerblue;text-align: center;">Email</td>
+            </thead>
+        </table>
+        <table *ngFor="let etud of etudiant " style="border-collapse: collapse;border: 2px solid black;" >
+            <tr>
+                <td style="width: 200px;text-align: center;"><input type="checkbox" name="test" (click)="check({id:etud.id,fname:etud.fname,lname:etud.lname,cne:etud.cne,cin:'k122333',class_name:'gi'})" value=" {{etud.id}}">{{etud.id}} </td>
+                <td style="width: 200px; text-align: center;">{{etud.fname}} </td>
+                <td style="width: 200px; text-align: center;">{{etud.lname}}</td>
+                <td style="width: 200px; text-align: center;">{{etud.cne}}</td>
+                <td style="width: 200px; text-align: center;">{{etud.abs}}</td>
+                <td style="width: 200px; text-align: center;">{{etud.email}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    </div>
+</div>

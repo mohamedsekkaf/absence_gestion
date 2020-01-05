@@ -1,0 +1,21 @@
+<div class="container">
+<div class="row">
+    <div class="card col-12 " style="width: 160vh;" >
+        <form class="card-body"  #student="ngForm" (ngSubmit)="onSubmit(student.value)">
+        <label for="">Nom </label>
+        <input type="text" name="fname" class="form-control" ngModel>
+        <label for="">Prenom </label>
+        <input type="text" name="lname" class="form-control" ngModel>
+        <label for="">CNE  </label>
+        <input type="text"  name="cne" class="form-control" ngModel>
+        <label for="">Email </label>
+        <input type="text" name="email" class="form-control" ngModel>
+        <label for="">Nom de Classe  </label>
+        <input type="text" name="class" class="form-control" ngModel>
+        <br>
+        <button type="submit" class="form">Add+</button>
+        </form>
+        <h1></h1>
+    </div>
+</div>    
+</div>

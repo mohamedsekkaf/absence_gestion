@@ -1,0 +1,18 @@
+ 
+
+ 
+<div class="container">
+    <div  class="row">
+        <div routerLink="/list-etudiant" routerLinkActive="active" *ngFor="let list of classe" class="col-6">
+            <div  class="card">
+                <div class="card-body">
+                    <a style="text-decoration: none;" href="">
+                    <h4 style="text-align: center;" class="card-title">{{list.class_name}}</h4>
+                    <p style="text-align: center;" class="card-text">{{list.prof}}</p>
+                </a>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+</div>
